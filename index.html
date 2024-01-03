@@ -1,15 +1,65 @@
 <html>
-    <header>
-        <script src="script.js"></script>
-<title>Application walid</title>
-    </header>
-    <body>
-<h1>application de gestion de stock réalisé par walid benkhal</h1>
-<h3>donner la valeure de S</h3><input id="s">
-<h3>donner la valeure de D</h3><input id="d">
-<h3>donner la valeure de H</h3><input id="h">
-<button type="button" onclick="calculer()">calcul de Q* et N</button>
-<h3>lot économique Q* est :</h3><input id="q">
-<h3>le nombre de commande optimal est :</h3><input id="n">
-    </body>
+<head>
+    <script src="script.js"></script>
+    <title>Application Walid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Application de gestion de stock réalisé par Walid Benkhal</h1>
+    <h3>Donner la valeur de S</h3>
+    <input id="s">
+    <h3>Donner la valeur de D</h3>
+    <input id="d">
+    <h3>Donner la valeur de H</h3>
+    <input id="h">
+    <button type="button" onclick="calculer()">Calcul de Q* et N</button>
+    <h3>Lot économique Q* est :</h3>
+    <input id="q">
+    <h3>Le nombre de commande optimal est :</h3>
+    <input id="n">
+</body>
 </html>
